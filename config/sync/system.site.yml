@@ -1,0 +1,14 @@
+uuid: 81542f75-5f1e-4bb9-8734-d5e1f70e76c7
+name: 'My dinners'
+mail: mykola.mashevskyi@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
