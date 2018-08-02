@@ -1,0 +1,21 @@
+uuid: a4b6acc2-75e5-4e43-a9e9-aef16770ae1f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_who
+field_name: field_who
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

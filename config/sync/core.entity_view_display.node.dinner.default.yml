@@ -1,0 +1,52 @@
+uuid: b1228d80-6cb6-485f-88b1-479d5438e755
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dinner.body
+    - field.field.node.dinner.field_reason
+    - field.field.node.dinner.field_who
+    - field.field.node.dinner.field_who_existing_user
+    - node.type.dinner
+  module:
+    - text
+    - user
+id: node.dinner.default
+targetEntityType: node
+bundle: dinner
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_reason:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_who:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_who_existing_user:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

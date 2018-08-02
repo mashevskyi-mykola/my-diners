@@ -1,0 +1,28 @@
+uuid: 60baaa8a-cd00-4478-a3ce-69f9227687ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_who_existing_user
+    - node.type.dinner
+id: node.dinner.field_who_existing_user
+field_name: field_who_existing_user
+entity_type: node
+bundle: dinner
+label: 'Who (existing user)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference
