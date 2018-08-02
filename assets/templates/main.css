@@ -1,0 +1,27 @@
+#main {
+  max-width: 800px;
+  background: #eaeaea;
+  margin: 15px auto;
+  padding: 15px 0;
+  display: block;
+  height: 100%;
+}
+
+.item {
+  background: #c6e2d9;
+  position: relative;
+  font-size: 22px;
+  margin: 5px;
+}
+.title {
+  padding: 10px;
+  width: 80%;
+}
+.options {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
